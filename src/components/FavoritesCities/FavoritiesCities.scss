@@ -1,0 +1,16 @@
+.favorite-cities__list {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+
+    li {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        padding: 1rem;
+        border-radius: 8px;
+        border: 1px solid #000;
+        background: rgb(196, 194, 194);
+    }
+}

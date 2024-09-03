@@ -1,0 +1,15 @@
+.forecast-info__list {
+    display: flex;
+    gap: 1rem;
+    overflow: auto;
+}
+
+.forecast-info__day {
+    padding: 1rem;
+    border-radius: 8px;
+    border: 1px solid #000;
+    background: rgb(196, 194, 194);
+    color: #000;
+    min-width: 15rem;
+    box-sizing: border-box;
+}
