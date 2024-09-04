@@ -1,5 +1,6 @@
 .forecast-info__list {
     display: flex;
+    justify-content: center;
     gap: 1rem;
     overflow: auto;
 }
@@ -10,6 +11,15 @@
     border: 1px solid #000;
     background: rgb(196, 194, 194);
     color: #000;
-    min-width: 15rem;
     box-sizing: border-box;
+}
+
+@media screen and (max-width: 768px) {
+    .forecast-info__list {
+        justify-content: flex-start;
+    }
+
+    .forecast-info__day {
+        min-width: 15rem;
+    }
 }

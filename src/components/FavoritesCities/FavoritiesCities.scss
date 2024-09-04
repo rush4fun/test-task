@@ -1,10 +1,10 @@
 .favorite-cities__list {
     display: flex;
     justify-content: center;
-    gap: 1rem;
     flex-wrap: wrap;
+    gap: 1rem;
 
-    li {
+    .favorite-cities__item {
         display: flex;
         align-items: center;
         gap: 1rem;
@@ -12,5 +12,13 @@
         border-radius: 8px;
         border: 1px solid #000;
         background: rgb(196, 194, 194);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .favorite-cities__list {
+        justify-content: flex-start;
+        flex-wrap: nowrap;
+        overflow: auto;
     }
 }
